@@ -44,18 +44,19 @@ h2 {
     border-radius: 10px;
     background: #fff;
     box-shadow: 0px .25rem .25rem 0px rgba(0, 0, 0, 0.25);
-    margin-bottom: 6.25rem;
 }
 
 .photo {
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
-.linkedin,
-.whatsapp {
-    width: 1.125rem;
-    height: 1.125rem;
-    margin-left: 1.25rem;
+.LI,
+.WA {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 .headers > p {
@@ -68,6 +69,17 @@ h2 {
 
 .headers > p > span {
     color: #8F2727;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.name, .rank{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 15px;
 }
 
 footer {
